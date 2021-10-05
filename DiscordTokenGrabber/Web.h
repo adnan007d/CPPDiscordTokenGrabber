@@ -1,7 +1,8 @@
 #pragma once
 #include <cpr/cpr.h>
 #include <nlohmann/json.hpp>
-
+#include <map>
+#include "Path.h"
 using json = nlohmann::json;
 
 namespace web
